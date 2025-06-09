@@ -24,9 +24,9 @@ const SidebarContent = () => {
           </Link>
         </li>
         <li>
-          <button className="w-full text-left px-4 py-2 rounded hover:bg-blue-100 hover:text-blue-600 transition">
+          <Link to="/sales-forecast" className="block px-4 py-2 rounded hover:bg-blue-100 hover:text-blue-600 transition">
             Sales Forecast
-          </button>
+          </Link>
         </li>
       </ul>
     </div>

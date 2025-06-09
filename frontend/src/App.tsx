@@ -3,8 +3,8 @@ import Main from "./components/Main";
 import Sidebar from "./components/Sidebar";
 import Sales from "./pages/Sales";
 import SalesList from "./pages/SalesList";
-
-
+import SalesForecast from "./pages/ForecastChart";
+ 
 const App = () => {
   return (
     <Router>
@@ -15,8 +15,7 @@ const App = () => {
             <Route path="/" element={<Main />} />
              <Route path="/sales" element={<Sales />} />
              <Route path="/sales-list" element={<SalesList />} />
-            {/* <Route path="/form" element={<Form />} />
-            <Route path="/sales-forecast" element={<SalesForecast />} /> */}
+            <Route path="/sales-forecast" element={<SalesForecast />} />
           </Routes>
         </div>
       </div>
